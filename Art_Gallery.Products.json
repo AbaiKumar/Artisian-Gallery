@@ -1,0 +1,126 @@
+[{
+  "_id": {
+    "$oid": "65d051e8fdfad29f732acc26"
+  },
+  "title": "Planting Pots ",
+  "des": "A flowerpot, planter, planterette or plant pot, is a container in which flowers and other plants are cultivated and displayed. Historically, and still to a significant extent today, they are made from plain terracotta with no ceramic glaze, with a round shape, tapering inwards.",
+  "art": [
+    "art1_vai@gmail.com_2024-02-17_11-57-52.jpg"
+  ],
+  "sell_type": "sell",
+  "price": 200,
+  "user": "vai@gmail.com",
+  "discount": "3"
+},
+{
+  "_id": {
+    "$oid": "65d05246fdfad29f732acc27"
+  },
+  "title": "Painted Dolls ",
+  "des": "Wooden Nesting Dolls set of 6, a fusion of Indian and Russian traditions, expertly handcrafted in Channapatna. Celebrate the fusion of Indian and Russian traditions with this nesting doll set, combining the iconic Matryoshka doll style with Indian aesthetics.",
+  "art": [
+    "art1_vai@gmail.com_2024-02-17_11-59-26.jpg"
+  ],
+  "sell_type": "sell",
+  "price": 250,
+  "user": "vai@gmail.com",
+  "discount": "24"
+},
+{
+  "_id": {
+    "$oid": "65d052b1fdfad29f732acc28"
+  },
+  "title": "Colourful Diya ",
+  "des": "They are then painted bright colours, filled with oil and lit for Diwali in October or November. The light is intended to cancel out the darkness as we enter the darker months. Diya Lamps are painted using fingers rather than paint brushes.",
+  "art": [
+    "art1_vai@gmail.com_2024-02-17_12-01-13.jpg"
+  ],
+  "sell_type": "sell",
+  "price": 180,
+  "user": "vai@gmail.com",
+  "discount": "1"
+},
+{
+  "_id": {
+    "$oid": "65d05303fdfad29f732acc29"
+  },
+  "title": "Mona Lisa ",
+  "des": "The Mona Lisa is a half-length portrait painting by Italian artist Leonardo da Vinci. Considered an archetypal masterpiece of the Italian Renaissance, it has been described as \"the best known, the most visited, the most written about, the most sung about, [and] the most parodied work of art in the world\".",
+  "art": [
+    "art1_vai@gmail.com_2024-02-17_12-02-35.jpg"
+  ],
+  "sell_type": "sell",
+  "price": 3000,
+  "user": "vai@gmail.com",
+  "discount": "5"
+},
+{
+  "_id": {
+    "$oid": "65d0533bfdfad29f732acc2a"
+  },
+  "title": "The stary Night",
+  "des": "Depicts the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence, just before sunrise, with the addition of an imaginary village. The Starry Night is an oil-on-canvas painting.",
+  "art": [
+    "art1_vai@gmail.com_2024-02-17_12-03-31.jpg"
+  ],
+  "sell_type": "sell",
+  "price": 2700,
+  "user": "vai@gmail.com",
+  "discount": "2"
+},
+{
+  "_id": {
+    "$oid": "65d053a7fdfad29f732acc2b"
+  },
+  "title": "Hexagon Modern Art",
+  "des": "hexagon,7 horses,seven horses,nature,6MM MDF,PANEL PAINTING,panel painting,kids",
+  "art": [
+    "art1_vai@gmail.com_2024-02-17_12-05-19.jpg"
+  ],
+  "sell_type": "sell",
+  "price": 1500,
+  "user": "vai@gmail.com",
+  "discount": "20"
+},
+{
+  "_id": {
+    "$oid": "65d05410fdfad29f732acc2c"
+  },
+  "title": "Blue Mud Jar",
+  "des": "The Blue Mud is made of kaolin clay, butterfly pea powder, honey, and witch hazel. This mask is the most “drying” of all four masks so be sure only to wear it for 3-10 minutes and follow its use with an oil.\\r\\nHoney fades scars, cleans out pores, and gently exfoliates and smoothes skin with enzymes. Clay helps with oiliness and to shrink pores. Butterfly pea flower increases collagen and elasticity in cells, decreases inflammation, and is soothing.",
+  "art": [
+    "art1_vai@gmail.com_2024-02-17_12-07-04.jpg"
+  ],
+  "sell_type": "bid",
+  "price": 4000,
+  "user": "vai@gmail.com",
+  "discount": "5"
+},
+{
+  "_id": {
+    "$oid": "65d05454fdfad29f732acc2d"
+  },
+  "title": "Perpetual Paintings for Wall Decoration",
+  "des": "Set of 5,3d Scenery Wall Painting for Living Room Large Size with Frames for Wall Decor and Home Decoration, Hotel, Office (75 CM X 43 CM) KM",
+  "art": [
+    "art1_vai@gmail.com_2024-02-17_12-08-12.jpg"
+  ],
+  "sell_type": "bid",
+  "price": 2200,
+  "user": "vai@gmail.com",
+  "discount": "0"
+},
+{
+  "_id": {
+    "$oid": "65d054defdfad29f732acc2e"
+  },
+  "title": "Hand-painted mugs",
+  "des": "Hand-painted ceramic coffee mug, creative pottery tea cup, office and home drinkware, handmade speckled porcelain, unique gift for friend",
+  "art": [
+    "art1_vai@gmail.com_2024-02-17_12-10-30.jpg"
+  ],
+  "sell_type": "bid",
+  "price": 900,
+  "user": "vai@gmail.com",
+  "discount": "0"
+}]

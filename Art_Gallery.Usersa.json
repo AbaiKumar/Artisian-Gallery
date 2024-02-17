@@ -1,0 +1,29 @@
+[{
+  "_id": {
+    "$oid": "65cfa7fc75501a604258a369"
+  },
+  "mail": "arun@gmail.com",
+  "password": "123"
+},
+{
+  "_id": {
+    "$oid": "65d051310e7eeb97cb52c3cd"
+  },
+  "mail": "art@gmail.com",
+  "password": "1",
+  "address": "asa",
+  "certificates": [
+    "certificate1_art@gmail.com_2024-02-17_13-49-47.png",
+    "certificate2_art@gmail.com_2024-02-17_13-49-47.png",
+    "certificate3_art@gmail.com_2024-02-17_13-49-47.png"
+  ],
+  "country": "india",
+  "masterpiece": "masterpiece_art@gmail.com_2024-02-17_13-49-47.png",
+  "phone_number": "741878672",
+  "profile_image": "profile_art@gmail.com_2024-02-17_13-49-47.png",
+  "sign_image": "signature_art@gmail.com_2024-02-17_13-49-47.png",
+  "skills": "SAS",
+  "timestamp": {
+    "$date": "2024-02-17T13:49:47.756Z"
+  }
+}]

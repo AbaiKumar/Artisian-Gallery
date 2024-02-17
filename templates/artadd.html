@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('bg.jpg');
+            background-color: white;
+            height: 100%;
+            background-position: center;
+            background-size: cover;
+        }
+        h1 {
+            color: black;
+            text-align: center;
+            margin-top: 20px;
+        }
+        form {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #ffff;
+            opacity: 0.7;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="tel"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="file"] {
+            margin-top: 10px;
+        }
+        .file-preview {
+            display: none;
+            position: absolute;
+            padding: 10px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            z-index: 1;
+        }
+        input[type="submit"] {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: pink;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: deeppink;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input[type="file"] {
+            width: auto;
+            display: inline-block;
+        }
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Art Details</h1>
+    <form action="ar" method="POST" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="title-input"><b>Title:</b></label>
+            <input type="text" id="title-input" name="title">
+        </div>
+        <div class="form-group">
+            <label for="description-textarea">Description:</label>
+            <textarea id="description-textarea" name="description"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="art-piece-input">Images:</label>
+            <input type="file" id="art-piece-input" multiple accept=".pdf, image/*" name="artpieceimage">
+            <div class="file-preview" id="art-piece-preview"></div> <!-- Preview div -->
+        </div>
+        <div class="select-option">
+            <br>
+            <select name="sell_type" id="type">
+                <option value="bid">bid</option>
+                <option value="sell">sell</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="price-input"><b>Price:</b></label>
+            <input type="number" id="price-input" name="price">
+        </div>
+        <input type="submit" value="Submit" onclick="update()">
+    </form>
+    <script>
+        function previewImage(event) {
+            var image = document.getElementById('profile-image');
+            image.src = URL.createObjectURL(event.target.files[0]);
+        }
+        // Function to display file preview for multiple files
+        function displayPreview(inputElement, previewElement) {
+            inputElement.addEventListener('change', function(event) {
+                var files = event.target.files;
+                if (files.length > 0) {
+                    previewElement.innerHTML = ''; // Clear previous previews
+                    for (var i = 0; i < files.length; i++) {
+                        var file = files[i];
+                        if (file) {
+                            var reader = new FileReader();
+                            reader.onload = (function(file) {
+                                return function(e) {
+                                    var preview = document.createElement('img');
+                                    preview.src = e.target.result;
+                                    preview.style.maxWidth = '150px';
+                                    preview.style.maxHeight = '150px';
+                                    previewElement.appendChild(preview);
+                                };
+                            })(file);
+                            reader.readAsDataURL(file);
+                        }
+                    }
+                }
+            });
+            // Show preview on hover
+            inputElement.addEventListener('mouseover', function() {
+                previewElement.style.display = 'block';
+            });
+            // Hide preview when mouse leaves
+            inputElement.addEventListener('mouseleave', function() {
+                previewElement.style.display = 'none';
+            });
+        }
+        function update(){
+            // add code for update details to database
+            window.location.href = 'a_homepage.html';
+        }
+        // Call the function for certificates file input
+        displayPreview(document.getElementById('art-piece-input'), document.getElementById('art-piece-preview'));
+    </script>
+</body>
+</html>

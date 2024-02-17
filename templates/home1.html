@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(0, 67, 133);
+        }
+        h1 {
+            color: white;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .options {
+            margin-top: 50px;
+        }
+        .options button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+        }
+        .options button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Artist Homepage</h1>
+    <div class="options">
+        <button onclick="window.location.href='/art_detail'">Add Artist Details</button>
+        <button onclick="window.location.href='/ar_add'">Add Art Piece</button>
+    </div>
+</body>
+</html>
